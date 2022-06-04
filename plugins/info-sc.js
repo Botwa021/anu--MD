@@ -7,14 +7,14 @@
 */
 
 let handler = async (m, { conn }) => {
-let ye = `@${m.sender.split`@`[0]}`
+let anu = `@${m.sender.split`@`[0]}`
 let esce = `
-Hai ${ye} Lagi Nyari Sc Ya? 
+Hai ${anu} cari scriptnya ya? 
 
-Nih Link Sc Nya Dibawah :
-https://youtu.be/AXPzjQ5jxx8
+chat wa di bawah ini ya :
+wa.me/6288233832771
 
-_*Jangan Lupa Di Subscribe*_`
+_*CHAT P/SPAM TIDAK AKAN DI RESPON*_`
 conn.sendBut(m.chat, esce, wm3, 'Thanks', 'thanks', m) 
 }
 handler.help = ['sc', 'sourcecode']
