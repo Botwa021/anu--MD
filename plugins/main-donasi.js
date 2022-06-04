@@ -6,21 +6,18 @@ let pulsa = global.pulsa
 let gopay = global.gopay
 let numberowner = global.numberowner
 let anu = `Hai 👋
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-┌〔 Donasi • Emoney 〕
-├ Dana : ${dana}
-├ Pulsa : ${pulsa}
-├ Gopay : ${gopay}
-└────
-Berapapun donasi kalian akan sangat berarti 👍
-
-Arigatou!
-
-Contact person Owner:
-wa.me/${numberowner} (Owner)
-
-*donasi via follow ig juga boleh*`
-  conn.sendButtonImg(m.chat, fla + teks, anu, instagram, 'Back', '.help', m) 
+┏──「 Donasi • Dana 」─⬣
+│ • Gopay : 088233832771
+│ • Dana : 088233832771
+│ • Pulsa : 089612698583
+┗────────⬣
+┏──「 *NOTE* 」─⬣
+│ > Ingin donasi? wa.me/6288233832771
+│ _Hasil donasi akan digunakan buat sewa_
+│ _atau beli *usr/VPS* agar bot bisa jalan_
+│ _24jam tanpa kendala_
+┗────────⬣`
+  conn.sendButtonImg(m.chat, fla + teks, anu, instagram, 'Menu', '.help', m) 
 }
 handler.help = ['donasi', 'donate']
 handler.tags = ['xp', 'info']
