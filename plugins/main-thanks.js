@@ -10,11 +10,11 @@ hyzer = {
   "extendedTextMessage": {
   "text": '*Sama-Sama*',
   "title": wm,
-  'jpegThumbnail': 'https://telegra.ph/file/20509b31b6e05ff999daa.jpg',
+  'jpegThumbnail': 'https://telegra.ph/file/32e717f19e0ea6aadd0a4.jpg',
         }
        } 
      }
-conn.sendImageAsSticker(m.chat, 'https://telegra.ph/file/06a27a93b66f63a5a067e.jpg', hyzer, { packname: "sticker by", author: "hyzer" })
+conn.sendImageAsSticker(m.chat, 'https://telegra.ph/file/32e717f19e0ea6aadd0a4.jpg', hyzer, { packname: "sticker by", author: "Mursid S" })
 }
 
 handler.customPrefix = /^(Terima Kasih|Thanks|tq)$/i
