@@ -509,14 +509,14 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             hydratedFooterText: wm2, 
             hydratedButtons: [{
             urlButton: {
-               displayText: 'Website Creator',
+               displayText: 'ωєвѕιтє ¢яєαтσя',
                url: web
              }
 
            },
              {
              urlButton: {
-               displayText: 'Group Bot', 
+               displayText: 'gяυρ вσт', 
                url: gc
              }
 
@@ -537,7 +537,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
            {
              quickReplyButton: {
-               displayText: 'Credits',
+               displayText: '¢яє∂ιт',
                id: '.tqto',
              }
            }]
