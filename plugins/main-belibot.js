@@ -10,8 +10,8 @@ const ftroli = {
     status: 1,
     surface : 1,
     message: 'Get Bot', 
-    orderTitle: `Hyzer`,
-    thumbnail: 'https://telegra.ph/file/5ecbec3e82e247671a18e.jpg', 
+    orderTitle: `Mursid S`,
+    thumbnail: 'https://telegra.ph/file/32e717f19e0ea6aadd0a4.jpg', 
     sellerJid: '0@s.whatsapp.net' 
     }
     }
