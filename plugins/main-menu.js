@@ -287,18 +287,18 @@ const fdoc = {
 if (teks == '404') {
 let menuu = `┏────『 *${namebot}* 』───⬣
 │⬡ *Aktif selama* : ${uptime}
+│⬡ *Baterai* : ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Charger' : ''}` : 'tidak diketahui'}
 │⬡ *Pengguna* : ${Object.keys(global.db.data.users).length}
 │⬡ *Mode* : ${global.opts['self'] ? 'Self' : 'publik'}
+│⬡ *Terblock* : ${conn.blocklist.length} 
 │⬡ *Chat Terbanned* : ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} 
 │⬡ *Pengguna Terbanned* : ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} 
-┗──────────⬣
-┏────『 *${name}* 』───⬣
-│⬡ Api : ${tag}
-│⬡ Limit : ${limit}
-│⬡ Role : ${role}
-│⬡ Premium : ${global.prem ? 'Yes' : 'No'}
-│⬡ Date : ${week} ${date}
-│⬡ Time : ${wib}
+│⬡ *Api* : ${tag}
+│⬡ *Limit* : ${limit}
+│⬡ *Role* : ${role}
+│⬡ *Premium* : ${global.prem ? 'Yes' : 'No'}
+│⬡ *Date* : ${week} ${date}
+│⬡ *Time* : ${wib}
 ┗──────────⬣`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
@@ -311,15 +311,19 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             sections: [
               {
                 "rows": [{
-                  "title": ` 👨 Owner Bot`,
+                  "title": `Owner Bot`,
                   "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
                   "rowId": `.owner`
                 },{
-                  "title": "❗ Info Bot",
+                  "title": "Info Bot",
                   "description": "Menampilkan Menu Info",
                   "rowId": `${_p}? info`
+                 },{
+                  "title": "Donasi",
+                  "description": "Hasil donasi akan digunakan buat sewa atau beli RDP/VPS agar bot bisa berjalan 24 jam tanpa ada kendala",
+                  "rowId": ".donasi"
                 }],
-                "title": "INFORMASI BOT"
+                "title": "⬡────────────❲ Informasi Bot ❳────────────⬡"
               }, {
                 "rows": [{
                   "title": `│🧾│ Semua Perintah`,
@@ -435,7 +439,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "rowId": `${_p}? textpro`
                 }
                   ],
-                "title": "LIST MENU"
+                "title": "⬡────────────❲ Semua Perintah ❳────────────⬡"
               }
             ], "contextInfo": {
               "stanzaId": m.key.id,
@@ -537,8 +541,8 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
            {
              quickReplyButton: {
-               displayText: '¢яє∂ιт',
-               id: '.tqto',
+               displayText: 'ɪɴƒᴏ мυʀѕι∂',
+               id: '.infomursid',
              }
            }]
          }
