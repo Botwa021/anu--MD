@@ -17,17 +17,17 @@ global.gopay = '088233832771'
 //=============『 Info Bot 』=================//
 global.namebot = '𝘽𝙊𝙏𝘾𝘼𝙃𝙓'
 global.gc = 'https://chat.whatsapp.com/LPFQ2X1cnihB0fb8F8cZau'
-global.web = 'https://instagram.com/mursid.st' 
+global.web = 'Botwa021.github.io' 
 global.price1 = '1 bulan = 20.000\n2 Minggu 10.000\n1 Minggu 5.000'
 
 //=======『 Tampilan Dan Lainnya 』============//
-global.fotonya1 = 'https://telegra.ph/file/7cb142e58fcb16f6d6af9.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/7cb142e58fcb16f6d6af9.jpg' //ini juga ganti 
+global.fotonya1 = 'https://telegra.ph/file/16e743bd45bda8c2f19be.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/16e743bd45bda8c2f19be.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = '© 𝘽𝙊𝙏𝘾𝘼𝙃𝙓'
 global.watermark = wm
-global.wm2 = '                     「 𝚂𝙷𝙸𝚁𝙾-𝙼𝙳 あ⁩ 」'
+global.wm2 = '© 𝘽𝙊𝙏𝘾𝘼𝙃𝙓'
 global.wm3 = '© 𝘽𝙊𝙏𝘾𝘼𝙃𝙓'
 global.htki = '『' 
 global.htka = '』'
