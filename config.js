@@ -15,23 +15,23 @@ global.pulsa = '089612698583'
 global.gopay = '088233832771'
 
 //=============『 Info Bot 』=================//
-global.namebot = '𝘽𝙊𝙏𝘾𝘼𝙃𝙓'
+global.namebot = '𝒎𝒖𝒓𝒔𝒊𝒅 𝒃𝒐𝒕'
 global.gc = 'https://chat.whatsapp.com/LPFQ2X1cnihB0fb8F8cZau'
 global.web = 'Botwa021.github.io' 
-global.price1 = '1 bulan = 20.000\n2 Minggu 10.000\n1 Minggu 5.000'
+global.price1 = '1 Minggu = 10.000\n2 Minggu = 15.000\n1 Bulan = 30.000\n2 Bulan = 40.000\nwa.me/6288233832771'
 
 //=======『 Tampilan Dan Lainnya 』============//
 global.fotonya1 = 'https://telegra.ph/file/16e743bd45bda8c2f19be.jpg' //ganti jadi foto bot mu
 global.fotonya2 = 'https://telegra.ph/file/16e743bd45bda8c2f19be.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '© 𝘽𝙊𝙏𝘾𝘼𝙃𝙓'
+global.wm = '© 𝒎𝒖𝒓𝒔𝒊𝒅 𝒃𝒐𝒕'
 global.watermark = wm
-global.wm2 = '© 𝘽𝙊𝙏𝘾𝘼𝙃𝙓'
-global.wm3 = '© 𝘽𝙊𝙏𝘾𝘼𝙃𝙓'
+global.wm2 = '𝒎𝒖𝒓𝒔𝒊𝒅 𝒃𝒐𝒕'
+global.wm3 = '𝒎𝒖𝒓𝒔𝒊𝒅 𝒃𝒐𝒕'
 global.htki = '『' 
 global.htka = '』'
-global.media = 'https://telegra.ph/file/32e717f19e0ea6aadd0a4.jpg'
+global.media = 'https://telegra.ph/file/204427cfd61e65409a6c4.jpg'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.wait = '_*tunggu...*_'
 global.eror = '_*Server Error*_'
