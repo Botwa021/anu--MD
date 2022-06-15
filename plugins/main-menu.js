@@ -297,7 +297,7 @@ let menuu = `┏────『 *${namebot}* 』───⬣
 │⬡ *Role* : ${role}
 │⬡ *Premium* : ${global.prem ? 'Yes' : 'No'}
 │⬡ *Date* : ${week} ${date}
-│⬡ *Time* : ${wib}
+│⬡ *Waktu* : ${wib}
 ┗──────────⬣`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
@@ -305,7 +305,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             description: menuu,
             buttonText: 'Click Here',
             listType: 1,
-            footerText: "© 𝘽𝙊𝙏𝘾𝘼𝙃𝙓",
+            footerText: "© 𝒎𝒖𝒓𝒔𝒊𝒅 𝒃𝒐𝒕",
             mtype: 'listMessage',
             sections: [
               {
